@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teste</title>
+    </head>
+    <body>
+        <h1>Guess The Number</h1>
+        <p>Adivinhe o número (entre 0 e 100)</p>
+        <input type="text" name="number">
+        <button name="ok">Ok</button>
+    </body>
+
+    <script>
+        const number = Math.round(Math.random() * 100);
+
+        document.querySelector('button[name=ok]').addEventListener('') ({
+            ev.prevenrDefault();
+            const number = Number(document
+                .querySelector('input[name=number]').value)
+            if(number === NUMBER) alert ('Você acertou')
+            if(number < NUMBER) alert ('Tente um número maior')
+            if(number > NUMBER) alert ('Tente um número menor')
+        })        
+    </script>
+</html>
