@@ -13,7 +13,7 @@
     <script>
         const number = Math.round(Math.random() * 100);
 
-        document.querySelector('button[name=ok]').addEventListener('') ({
+        document.querySelector('button[name=ok]').addEventListener('click', (ev) => {
             ev.prevenrDefault();
             const number = Number(document
                 .querySelector('input[name=number]').value)
